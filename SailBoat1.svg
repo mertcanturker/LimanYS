@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="katman_1" data-name="katman 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1682.64 542.4">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-2);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="17"/>
+      <feGaussianBlur result="blur" stdDeviation="27"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="17"/>
+      <feGaussianBlur result="blur-2" stdDeviation="27"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-1" d="m1598.46,248.69c-216.11,89.85-556.3,197.22-979.57,193.99-206.44-1.58-387.24-29.12-535.18-63.29V123.49c141.5-30.75,321.68-57.21,531.06-57.78,215.54-.59,400.57,26.43,544.82,57.78,72.92,15.47,150.24,34.45,231.13,57.78,73.81,21.29,143.12,44.07,207.75,67.41Z"/>
+  <path class="cls-2" d="m921.57,371.13c-65.86,9.52-139.11,16.7-218.75,19.26-104.12,3.34-198.46-1.89-280.66-11.01v-250.39c74.19-9.45,159.74-15.79,254.53-14.77,90.98.98,173.21,8.56,244.88,18.9,10.69,19.68,29.51,60.59,30.27,115.57.81,58.87-19.51,102.65-30.27,122.45Z"/>
+  <rect class="cls-4" x="83.71" y="141.37" width="140.33" height="225.63"/>
+  <rect class="cls-3" x="186.43" y="292.25" width="30.27" height="48.61" rx="5.27" ry="5.27"/>
+  <rect class="cls-3" x="186.89" y="164.76" width="30.27" height="48.61" rx="5.27" ry="5.27"/>
+</svg>
